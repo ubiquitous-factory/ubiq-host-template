@@ -1,0 +1,7 @@
+[placeholders.ip]
+type = "string"
+prompt = "IP Address of git server"
+
+[placeholders.username]
+type = "string"
+prompt = "Username for the git service"
