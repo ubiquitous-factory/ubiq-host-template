@@ -1,8 +1,8 @@
 configReload:
-  configURL: https://{{ip}}/{{username}}/main/config.yaml
+  configURL: https://{{ip}}/{{serviceuser}}/main/config.yaml
   schedule: "1/120 * * * * *"
 targetConfigs:
-- url: https://{{ip}}/{{username}}/{{project}}.git
+- url: https://{{ip}}/{{serviceuser}}/{{project}}.git
   targetPath: "/"
   branch: "main"
   schedule: "1/60 * * * * *"

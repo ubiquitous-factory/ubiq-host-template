@@ -2,6 +2,6 @@
 type = "string"
 prompt = "IP Address of git server"
 
-[placeholders.username]
+[placeholders.serviceuser]
 type = "string"
 prompt = "Username for the git service"
